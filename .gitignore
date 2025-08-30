@@ -9,18 +9,17 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# macOS
+# macOS / IDE
 .DS_Store
-
-# IDE
 .vscode/
 .idea/
 
-# Data: игнорим всё, кроме маленького сэмпла
+# Data: игнорим всё, кроме маленького сэмпла и README
 data/*
 !data/sample_churn.csv
+!data/README.md
 
-# Models: оставляем только финальную модель
+# Models: оставляем только финальную
 models/*
 !models/model.joblib
 
