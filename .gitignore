@@ -1,0 +1,28 @@
+# Python / cache / venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Data: игнорим всё, кроме маленького сэмпла
+data/*
+!data/sample_churn.csv
+
+# Models: оставляем только финальную модель
+models/*
+!models/model.joblib
+
+# Reports временное
+reports/**/*.tmp
